@@ -1,0 +1,45 @@
+.main-interface {
+    background-color: #ffd466;
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 24px;
+}
+
+.main-header, .main-function {
+    width: 100%;
+
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.main-header-title, .main-function-title {
+    display: flex;
+    justify-content: center;
+}
+
+.image-display {
+    margin-top: 10px;
+}
+
+.main-function-title {
+    margin-bottom: 20px;
+}
+
+.main-function-section {
+    display: flex;
+    justify-content: center;
+}
+
+.main-function-section a {
+    margin: 0 10px;
+}
+
+.main-function-section a:link {
+    text-decoration: none;
+}
+
+.main-function-section a:visited {
+    color: black;
+}

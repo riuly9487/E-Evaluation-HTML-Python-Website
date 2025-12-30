@@ -1,0 +1,22 @@
+button, .form-control input {
+    padding: 10px 20px;
+
+    background-color: #ffa600;
+    border-radius: 24px;
+    border-style: none;
+    
+    font-size: 24px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s scale;
+}
+
+button:hover, .form-control input:hover{
+    scale: 90%;
+}
+
+button:active, .form-control input:active {
+    scale: 80%;
+}

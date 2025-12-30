@@ -1,0 +1,16 @@
+form {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    background-color: #ffd466;
+    
+    border-radius: 16px;
+}
+
+.form-title, .form-content, .form-control {
+    padding: 10px;
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+}
