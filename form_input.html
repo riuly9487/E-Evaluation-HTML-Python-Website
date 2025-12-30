@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>
+			SMK Hua Lian E-Evaluation
+		</title>
+        <link rel="stylesheet" href="css/body.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/button.css">
+	</head>
+    <body>
+        <h1>Input Student Data</h1>
+
+        <form action="p_input.py" method="post">
+            <div class="form-title">
+                Name
+            </div>
+            <div class="form-content">
+                <INPUT type="text" name="student_name">
+            </div>
+            <div class="form-title">
+                Year of Born (yyyy-mm-dd)
+            </div>
+            <div class="form-content">
+                <INPUT type="text" name="student_year_of_born">
+            </div>
+            <div class="form-title">
+                Coursework Mark (60%)
+            </div>
+            <div class="form-content">
+                <INPUT type="text" name="coursework_mark">
+            </div>
+            <div class="form-title">
+                Examination Mark (40%)
+            </div>
+            <div class="form-content">
+                <INPUT type="text" name="examination_mark">
+            </div>
+            <div class="form-control">
+                <INPUT type="reset" value="Cancel">
+            </div>
+            <div class="form-control">
+                <INPUT type="submit" value="SUBMIT"> 
+            </div>
+        </form>
+        <a href="index.html">
+            <button>
+                Back To Home
+            </button>
+        </a>
+    </body>
+</html>
